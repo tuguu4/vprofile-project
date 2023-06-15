@@ -18,7 +18,7 @@ services:
       - "11211:11211"
 
   vprormq01:
-    iamge: rabbitmq
+    image: rabbitmq
     ports:
       - "15672:15672"
     environment:
